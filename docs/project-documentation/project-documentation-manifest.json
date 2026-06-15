@@ -1,0 +1,117 @@
+{
+  "schema_version": "1.0",
+  "project_name": "Ayman Shams Personal Site",
+  "mode": "full_run",
+  "output_root": "C:\\Users\\ayman\\Documents\\Codex\\2026-06-15\\i-want-to-start-a-new\\work\\aymanshams.github.io",
+  "required_formats": [
+    "json",
+    "markdown"
+  ],
+  "code_allowed": true,
+  "next_action": "code",
+  "coordination_state_path": "docs/delivery/current-state.md",
+  "session_continuity_command": "python scripts/agent/session_continuity.py start",
+  "open_material_decisions": [],
+  "unresolved_source_conflicts": [],
+  "approvals": {
+    "source_authority": true,
+    "material_decisions": true,
+    "controlled_docs": true,
+    "tdd": true,
+    "coding_start": true
+  },
+  "phases": {
+    "0_route_scope": {
+      "status": "completed",
+      "evidence": [
+        "User requested codex-coding-os-master plus new-project-documentation-system before coding.",
+        "Catalogue routed the workflow to codex-coding-os-master with new-project-documentation-system as documentation-phase owner.",
+        "Coding is explicitly blocked until project docs and implementation plan are approved."
+      ]
+    },
+    "1_source_inventory": {
+      "status": "completed",
+      "evidence": [
+        "Current controlling project source is the user prompt dated 2026-06-15.",
+        "GitHub Pages official documentation checked for repository naming and static hosting constraints.",
+        "No existing project files or Git repository were present in the planning workspace at manifest creation.",
+        "Source inventory and authority map created at docs/project-documentation/sources/source-inventory.md."
+      ]
+    },
+    "2_material_decisions": {
+      "status": "approved",
+      "evidence": [
+        "User confirmed account, repo direction, domain deferral, OpenAI disclaimer, and coding approval gate.",
+        "User delegated stack, publishing source, page structure, project positioning, contact methods, writing scope, and visual style to Codex judgment under lean professional constraints.",
+        "Decision register created at docs/project-documentation/decision-register.md."
+      ]
+    },
+    "3_controlled_docs": {
+      "status": "approved",
+      "evidence": [
+        "Project brief created at docs/project-documentation/project-brief.md.",
+        "PRD created at docs/project-documentation/controlled-docs/prd-ayman-shams-personal-site.md.",
+        "App flow created at docs/project-documentation/controlled-docs/app-flow.md.",
+        "Tech stack created at docs/project-documentation/controlled-docs/tech-stack.md.",
+        "Frontend guidelines created at docs/project-documentation/controlled-docs/frontend-guidelines.md.",
+        "Backend structure created at docs/project-documentation/controlled-docs/backend-structure.md.",
+        "Security guidelines created at docs/project-documentation/controlled-docs/security-guidelines.md.",
+        "Implementation plan created at docs/project-documentation/controlled-docs/implementation-plan.md.",
+        "Controlled-docs validation report created at docs/project-documentation/validation/controlled-docs-validation.md.",
+        "User approved controlled docs in chat."
+      ]
+    },
+    "4_tdd_alignment": {
+      "status": "approved",
+      "evidence": [
+        "TDD and alignment review drafting started after controlled-doc approval.",
+        "TDD created at docs/project-documentation/tdd-ayman-shams-personal-site.md.",
+        "Alignment review created at docs/project-documentation/alignment-review.md.",
+        "User approved TDD and alignment review in chat."
+      ]
+    },
+    "5_repo_documentation": {
+      "status": "completed",
+      "evidence": [
+        "Repo documentation phase started after TDD approval.",
+        "README.md created.",
+        "CONTRIBUTING.md created.",
+        "CODEOWNERS created.",
+        "docs/index.md created.",
+        "docs/glossary.md created.",
+        "Product, architecture, frontend, security, testing, and delivery documentation created."
+      ]
+    },
+    "6_agent_instructions": {
+      "status": "completed",
+      "evidence": [
+        "AGENTS.md created.",
+        "CLAUDE.md created.",
+        "docs/delivery/current-state.md created.",
+        "scripts/agent/session_continuity.py installed from the project-session-continuity skill."
+      ]
+    },
+    "7_handoff": {
+      "status": "completed",
+      "evidence": [
+        "Handoff phase started after repo docs and agent instruction layer were created.",
+        "Handoff created at docs/history/2026-06-15-project-session-handoff-before-coding-start.md.",
+        "Current state references latest handoff."
+      ]
+    },
+    "8_final_validation": {
+      "status": "completed",
+      "evidence": [
+        "Final validation phase started after handoff creation.",
+        "Final validation report created at docs/project-documentation/validation/final-validation-report.md.",
+        "Workflow manifest validator passed.",
+        "Filled artifact placeholder validator passed.",
+        "Session continuity validator passed.",
+        "Style and contamination scan found no blocked matches.",
+        "User approved coding_start in chat.",
+        "Target repository was created and cloned.",
+        "First static site implementation files were created."
+      ]
+    }
+  }
+}
