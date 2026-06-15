@@ -25,7 +25,8 @@ This file records the active slice, exact next permitted action, risks, and sess
 - Target GitHub repository: `AymanShams/aymanshams.github.io`.
 - Target repository local clone exists and tracks `origin/main`.
 - Current branch: `main`.
-- Deployed commit: `76e9513 Initial GitHub Pages personal site`.
+- Initial site commit: `76e9513 Initial GitHub Pages personal site`.
+- Latest deployed state is tracked by `origin/main`.
 - GitHub Pages source: `main` branch at `/`.
 - GitHub Pages status: `built`.
 - Public site URL: `https://aymanshams.github.io/`.
@@ -41,6 +42,7 @@ This file records the active slice, exact next permitted action, risks, and sess
 - Static site files created for homepage, Codex Coding OS, healthcare operations, notes, 404 page, CSS, and `.nojekyll`.
 - Initial commit created and pushed to `origin/main`.
 - GitHub Pages is live with HTTPS enforced and custom 404 detected by GitHub.
+- Post-launch content correction completed on 2026-06-15: replaced the healthcare boundary warning with neutral operating-approach copy and replaced Notes placeholder framing with concise working principles.
 
 ## Next Permitted Action
 

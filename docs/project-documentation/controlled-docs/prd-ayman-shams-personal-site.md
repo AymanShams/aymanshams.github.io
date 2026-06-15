@@ -99,7 +99,7 @@ No patient details, client details, performance claims, financial metrics, or in
 
 ### 7.5 notes page
 
-The page should start as a simple index. It can list themes before public notes exist:
+The page should start as a simple index with concise public working principles. It should not publish empty coming-soon or placeholder copy.
 
 - Healthcare operations.
 - AI governance.

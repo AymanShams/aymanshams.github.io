@@ -106,7 +106,7 @@ The page may reference HealPath and SiriusShield only as work areas under Ayman'
 
 ### notes page
 
-The page should start as a simple index of themes. It does not need a blog engine in v1.
+The page should start as a simple index of concise public working principles. It does not need a blog engine in v1 and should not include coming-soon placeholder copy.
 
 ## frontend design
 

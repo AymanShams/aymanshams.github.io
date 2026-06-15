@@ -42,7 +42,7 @@ The site is a static personal website. The primary flow is reader orientation, n
 |---|---|
 | Visitor lands directly on subpage | Subpage includes top navigation and link back to homepage. |
 | External link is not ready | Omit the link rather than publishing a placeholder. |
-| No notes are published yet | Notes page lists themes and says public notes will be added when ready. |
+| No long-form notes are published yet | Notes page carries concise public working principles without coming-soon placeholder copy. |
 | Custom domain is not configured | Site uses the default GitHub Pages URL. |
 | Visitor uses mobile | Layout stacks cleanly with readable text and no horizontal scrolling. |
 
