@@ -132,6 +132,16 @@
         "Desktop and mobile browser checks passed for the changed pages.",
         "Public HTML sensitive-copy and placeholder scans passed for the changed pages."
       ]
+    },
+    "11_verified_project_links": {
+      "status": "completed",
+      "evidence": [
+        "User supplied the HealPath public URL https://healpath.care/.",
+        "User supplied the SiriusShield public URL https://www.siriusshield.com/.",
+        "Both URLs returned HTTP 200 before publishing.",
+        "Healthcare operations page added the verified links inside the relevant work-area cards.",
+        "Homepage remains under Ayman Shams as the umbrella identity."
+      ]
     }
   }
 }

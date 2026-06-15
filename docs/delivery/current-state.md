@@ -43,6 +43,7 @@ This file records the active slice, exact next permitted action, risks, and sess
 - Initial commit created and pushed to `origin/main`.
 - GitHub Pages is live with HTTPS enforced and custom 404 detected by GitHub.
 - Post-launch content correction completed on 2026-06-15: replaced the healthcare boundary warning with neutral operating-approach copy and replaced Notes placeholder framing with concise working principles.
+- Verified public project links added on 2026-06-15: `https://healpath.care/` and `https://www.siriusshield.com/`.
 
 ## Next Permitted Action
 

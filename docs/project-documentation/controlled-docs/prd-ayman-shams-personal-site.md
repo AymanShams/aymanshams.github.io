@@ -94,6 +94,7 @@ The page should describe the work area without over-claiming:
 - Primary care and chronic care management.
 - Workflow design, quality, process controls, and implementation discipline.
 - SiriusShield as medical insurance operations BPO work.
+- Links to the public HealPath and SiriusShield websites when verified.
 
 No patient details, client details, performance claims, financial metrics, or internal operating procedures should be included.
 
@@ -115,7 +116,7 @@ Use static HTML and CSS. Add a `.nojekyll` file so GitHub Pages serves files dir
 
 - The site will be public.
 - The GitHub account is `AymanShams`.
-- Actual GitHub and LinkedIn URLs will be verified before implementation.
+- Actual GitHub, project website, and LinkedIn URLs will be verified before publishing.
 - Email will be omitted until a public address is approved.
 - Custom domain will be deferred.
 
