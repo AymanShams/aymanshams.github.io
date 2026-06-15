@@ -1,15 +1,15 @@
 ---
 state_version: 1
 last_updated: 2026-06-15
-workflow_state: implementation-approved
+workflow_state: deployed-v1
 workflow_manifest: docs/project-documentation/project-documentation-manifest.json
-active_area: implementation
-active_slice: first-static-site-implementation
-next_area: implementation
-next_slice: initial-commit-and-push
-next_action: push_initial_site
+active_area: deployment
+active_slice: first-static-site-deployed
+next_area: post_launch_review
+next_slice: content_links_and_domain_decision
+next_action: review_live_site_and_add_verified_contact_links
 next_high_risk: false
-next_session_required_before_next_slice: true
+next_session_required_before_next_slice: false
 last_handoff: docs/history/2026-06-15-project-session-handoff-before-coding-start.md
 ---
 
@@ -23,9 +23,13 @@ This file records the active slice, exact next permitted action, risks, and sess
 
 - Repo path: `C:\Users\ayman\Documents\Codex\2026-06-15\i-want-to-start-a-new\work\aymanshams.github.io`.
 - Target GitHub repository: `AymanShams/aymanshams.github.io`.
-- Target repository local clone exists.
+- Target repository local clone exists and tracks `origin/main`.
 - Current branch: `main`.
-- Initial commit has not been created yet.
+- Deployed commit: `76e9513 Initial GitHub Pages personal site`.
+- GitHub Pages source: `main` branch at `/`.
+- GitHub Pages status: `built`.
+- Public site URL: `https://aymanshams.github.io/`.
+- Public site HTTP check returned `200 OK` on 2026-06-15.
 
 ## Active Work
 
@@ -35,17 +39,19 @@ This file records the active slice, exact next permitted action, risks, and sess
 - Repo documentation and agent instructions created in the planning workspace.
 - Coding start approved by Ayman Shams.
 - Static site files created for homepage, Codex Coding OS, healthcare operations, notes, 404 page, CSS, and `.nojekyll`.
+- Initial commit created and pushed to `origin/main`.
+- GitHub Pages is live with HTTPS enforced and custom 404 detected by GitHub.
 
 ## Next Permitted Action
 
-- Commit the validated static site.
-- Push `main` to `AymanShams/aymanshams.github.io`.
-- Verify GitHub Pages after push.
+- Review the live site content in browser.
+- Add verified LinkedIn or contact links if Ayman provides or approves exact URLs.
+- Decide whether to keep the default GitHub Pages URL or buy a custom domain.
 
 ## Work Explicitly Not Started
 
-- No GitHub Pages deployment has been configured.
 - No custom domain has been purchased or configured.
+- No analytics, contact form, JavaScript, CMS, or build pipeline has been added.
 
 ## Candidate Decisions Still Not Final
 
@@ -56,14 +62,13 @@ This file records the active slice, exact next permitted action, risks, and sess
 
 ## Risks And Blockers
 
-- Initial commit and push are still pending.
-- GitHub Pages deployment is still pending.
-- Browser screenshot capture timed out, but DOM, route, console, mobile, security, and link checks passed.
+- Browser screenshot capture timed out, but DOM, route, console, mobile, security, link, Pages API, and public HTTP checks passed.
+- LinkedIn URL remains omitted until the exact public profile URL is verified.
 
 ## New Session Decision
 
-- Continue in this session while the bounded slice remains validation, initial commit, push, and GitHub Pages setup.
-- Stop if validation fails or if GitHub rejects the initial push.
+- Continue in this session only for bounded post-deployment cleanup or link/domain decisions.
+- Start a new session for material redesign, content expansion, analytics, forms, or custom-domain work.
 
 ## New Session Start Instructions
 
