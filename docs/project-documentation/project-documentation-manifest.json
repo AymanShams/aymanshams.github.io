@@ -10,6 +10,7 @@
   "code_allowed": true,
   "next_action": "post_deployment_review",
   "coordination_state_path": "docs/delivery/current-state.md",
+  "permission_manifest_path": "docs/delivery/active-slice-manifest.json",
   "session_continuity_command": "python scripts/agent/session_continuity.py start",
   "open_material_decisions": [],
   "unresolved_source_conflicts": [],
@@ -141,6 +142,16 @@
         "Both URLs returned HTTP 200 before publishing.",
         "Healthcare operations page added the verified links inside the relevant work-area cards.",
         "Homepage remains under Ayman Shams as the umbrella identity."
+      ]
+    },
+    "12_profile_and_booking_links": {
+      "status": "completed",
+      "evidence": [
+        "User supplied the LinkedIn profile URL https://www.linkedin.com/in/shamsayman.",
+        "User supplied the Google Calendar booking URL https://calendar.app.google/tmQ1kP3kKUGVTpMe7.",
+        "Google Calendar booking page returned HTTP 200 with title Ayman Shams - Booking Page.",
+        "LinkedIn returned authwall status 999 to unauthenticated HTTP probing; the exact user-supplied URL was used.",
+        "Homepage and footer added LinkedIn and Book a call links without adding forms, analytics, scripts, backend services, or tracking."
       ]
     }
   }

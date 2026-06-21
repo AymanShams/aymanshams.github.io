@@ -43,7 +43,7 @@ People who find Ayman through GitHub, LinkedIn, healthcare work, or operating no
 - Healthcare operations page covering HealPath, primary care, chronic care, and digital health work at a high level.
 - Operating notes page for writing on AI governance, healthcare operations, process design, and operational excellence.
 - Minimal navigation, text-only layout, responsive design, and accessible HTML.
-- GitHub and LinkedIn links when verified. Omit email until a public address is supplied.
+- GitHub, LinkedIn, and booking links when approved and checked. Omit email until a public address is supplied.
 
 ## later scope
 
@@ -58,7 +58,7 @@ People who find Ayman through GitHub, LinkedIn, healthcare work, or operating no
 | Data type | Example | Sensitivity | Source of truth | Owner |
 |---|---|---|---|---|
 | Public profile copy | Name, role summary, work areas | Public | Approved site copy | Ayman Shams |
-| Project links | GitHub repositories, LinkedIn profile | Public | Verified public URLs | Ayman Shams |
+| Project and contact links | GitHub repositories, LinkedIn profile, Google Calendar booking page, project websites | Public | Approved and checked public URLs | Ayman Shams |
 | Business descriptions | HealPath and SiriusShield summaries | Business sensitive if over-detailed | Approved portfolio wording | Ayman Shams |
 | Writing topics | AI governance, operating notes | Public after approval | Approved pages | Ayman Shams |
 

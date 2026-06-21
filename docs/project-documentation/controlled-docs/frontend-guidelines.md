@@ -37,7 +37,8 @@ Primary navigation:
 Footer links:
 
 - GitHub, after URL verification.
-- LinkedIn, after URL verification.
+- LinkedIn, from the approved public profile URL.
+- Book a call, from the approved Google Calendar booking URL.
 - Email omitted until a public email address is approved.
 
 ## content voice
@@ -77,7 +78,7 @@ Avoid:
 | Positioning line | Yes | Short and serious |
 | Work areas | Yes | Four compact areas |
 | OpenAI disclaimer | Yes | Exact approved wording on Codex page |
-| Project links | Yes where verified | Omit unverified links |
+| Project and contact links | Yes where approved and checked | Omit unapproved links and document platform verification limitations |
 | Headshot | No | Text-only preference |
 | Blog posts | No | Notes index can start with themes |
 | Contact form | No | Avoid form handling |

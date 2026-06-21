@@ -9,7 +9,7 @@ Keep v1 static and data-minimal. The safest first version is a public site that 
 | Data | Classification | Rule |
 |---|---|---|
 | Public page copy | Public | Publish only after review |
-| GitHub and LinkedIn URLs | Public | Verify before publishing |
+| GitHub, LinkedIn, booking, and project URLs | Public | Check before publishing and document platform verification limitations |
 | Email address | Personal contact data | Omit until approved |
 | HealPath details | Business sensitive if detailed | Keep portfolio-level only |
 | SiriusShield details | Business sensitive if detailed | Keep portfolio-level only |

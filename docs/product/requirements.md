@@ -12,7 +12,7 @@
 | REQ-006 | Site is static | No backend, database, form, analytics, cookie, or third-party script |
 | REQ-007 | Site is responsive | Pages are readable on desktop and mobile without horizontal scrolling |
 | REQ-008 | Site is accessible enough for v1 | Semantic HTML, logical headings, descriptive links, visible focus states |
-| REQ-009 | External links are verified | GitHub, project website, and LinkedIn links are checked before publishing |
+| REQ-009 | External links are approved and checked | External links are checked before publishing, or their verification limitation is documented |
 | REQ-010 | GitHub Pages publishes from root of `main` | Pages deployment uses approved source |
 
 ## planned later requirements

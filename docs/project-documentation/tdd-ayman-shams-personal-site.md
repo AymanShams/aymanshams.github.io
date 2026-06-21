@@ -167,7 +167,7 @@ https://aymanshams.github.io/
 Before launch:
 
 1. Verify all internal links.
-2. Verify external GitHub and LinkedIn URLs.
+2. Check approved external GitHub, LinkedIn, booking, and project website URLs, documenting any platform verification limitation.
 3. Confirm OpenAI disclaimer appears exactly on the Codex Coding OS page.
 4. Check desktop and mobile rendering.
 5. Check keyboard focus visibility.
@@ -253,7 +253,7 @@ Exit criteria:
 
 | Issue | Status | Blocking |
 |---|---|---|
-| Exact GitHub and LinkedIn URLs need verification before implementation | Open | Blocks final content, not TDD approval |
+| Exact GitHub, LinkedIn, booking, and project website URLs | Resolved for current published links | No |
 | Custom domain availability and price are not checked | Deferred | No |
 | Public email address is not supplied | Deferred | No |
 

@@ -172,6 +172,18 @@ p {
   border-color: var(--accent);
 }
 
+.button.secondary {
+  color: var(--accent-dark);
+  background: transparent;
+  border-color: var(--line);
+}
+
+.button.secondary:hover {
+  color: #ffffff;
+  background: var(--accent-dark);
+  border-color: var(--accent-dark);
+}
+
 .section-heading {
   display: grid;
   grid-template-columns: minmax(140px, 240px) minmax(0, 1fr);

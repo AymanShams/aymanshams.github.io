@@ -72,7 +72,7 @@ The homepage should include:
    - Medical insurance operations
    - Writing and operating notes
 3. Short "current focus" section.
-4. Links to GitHub and LinkedIn when verified.
+4. Links to GitHub, LinkedIn, and booking when approved and checked.
 
 ### 7.3 Codex Coding OS page
 
@@ -116,7 +116,7 @@ Use static HTML and CSS. Add a `.nojekyll` file so GitHub Pages serves files dir
 
 - The site will be public.
 - The GitHub account is `AymanShams`.
-- Actual GitHub, project website, and LinkedIn URLs will be verified before publishing.
+- Actual GitHub, project website, LinkedIn, and booking URLs will be checked before publishing. If a platform blocks unauthenticated verification, record the limitation and use the exact user-approved URL only.
 - Email will be omitted until a public address is approved.
 - Custom domain will be deferred.
 

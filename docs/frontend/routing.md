@@ -19,9 +19,11 @@
 
 ## verified external links
 
-| Link | URL | Placement |
-|---|---|---|
-| GitHub profile | `https://github.com/AymanShams` | Homepage and footer |
-| Codex Coding OS repository | `https://github.com/AymanShams/codex-coding-os` | Codex Coding OS page |
-| HealPath website | `https://healpath.care/` | Healthcare operations page |
-| SiriusShield website | `https://www.siriusshield.com/` | Healthcare operations page |
+| Link | URL | Placement | Verification note |
+|---|---|---|---|
+| GitHub profile | `https://github.com/AymanShams` | Homepage and footer | Previously verified |
+| LinkedIn profile | `https://www.linkedin.com/in/shamsayman` | Homepage and footer | User supplied exact URL; LinkedIn returns authwall status `999` to unauthenticated HTTP probing |
+| Google Calendar booking page | `https://calendar.app.google/tmQ1kP3kKUGVTpMe7` | Homepage and footer | HTTP `200`, title `Ayman Shams - Booking Page` |
+| Codex Coding OS repository | `https://github.com/AymanShams/codex-coding-os` | Codex Coding OS page | Previously verified |
+| HealPath website | `https://healpath.care/` | Healthcare operations page | HTTP `200` |
+| SiriusShield website | `https://www.siriusshield.com/` | Healthcare operations page | HTTP `200` |

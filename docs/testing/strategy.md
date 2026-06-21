@@ -9,7 +9,7 @@ V1 testing is static-site validation.
 | Check | Pass condition |
 |---|---|
 | Internal links | All internal links resolve |
-| External links | GitHub and LinkedIn URLs are verified |
+| External links | Approved external links are checked, with any platform verification limitation documented |
 | OpenAI disclaimer | Exact approved sentence appears on Codex Coding OS page |
 | Responsive layout | Pages are readable on desktop and mobile |
 | Keyboard navigation | Links can be reached and focus is visible |

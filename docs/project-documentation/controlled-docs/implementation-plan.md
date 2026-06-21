@@ -8,7 +8,7 @@ Build the first release as a static GitHub Pages site in `aymanshams.github.io`,
 
 - The repository is or will be available under the `AymanShams` GitHub account.
 - The public site URL will be `https://aymanshams.github.io/` for v1.
-- GitHub and LinkedIn URLs will be verified before launch.
+- Approved external URLs will be checked before publishing, with platform verification limitations documented when applicable.
 - No email link will be added unless a public email address is supplied.
 - No custom domain will be added in v1.
 

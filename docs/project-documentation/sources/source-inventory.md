@@ -26,7 +26,7 @@
 | Data or content | Sensitivity | Rule |
 |---|---|---|
 | Personal bio and public work summary | Public once published | Keep accurate, restrained, and non-promotional. |
-| GitHub and LinkedIn links | Public | Verify links before launch. |
+| GitHub, LinkedIn, booking, and project links | Public | Check links before publishing and document platform verification limitations. |
 | Email address | Personal contact data | Omit unless user supplies a public address for the site. |
 | HealPath and SiriusShield details | Business sensitive if too specific | Describe at portfolio level only in v1. Do not publish client, patient, PHI, financial, or internal operating details. |
 | Healthcare operations notes | Potentially sensitive depending on examples | Use generalized, non-client, non-patient examples only. |

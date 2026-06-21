@@ -1,6 +1,6 @@
 ---
 state_version: 1
-last_updated: 2026-06-15
+last_updated: 2026-06-21
 workflow_state: deployed-v1
 workflow_manifest: docs/project-documentation/project-documentation-manifest.json
 active_area: deployment
@@ -44,11 +44,11 @@ This file records the active slice, exact next permitted action, risks, and sess
 - GitHub Pages is live with HTTPS enforced and custom 404 detected by GitHub.
 - Post-launch content correction completed on 2026-06-15: replaced the healthcare boundary warning with neutral operating-approach copy and replaced Notes placeholder framing with concise working principles.
 - Verified public project links added on 2026-06-15: `https://healpath.care/` and `https://www.siriusshield.com/`.
+- LinkedIn profile and Google Calendar booking links added on 2026-06-21 from user-supplied URLs.
 
 ## Next Permitted Action
 
 - Review the live site content in browser.
-- Add verified LinkedIn or contact links if Ayman provides or approves exact URLs.
 - Decide whether to keep the default GitHub Pages URL or buy a custom domain.
 
 ## Work Explicitly Not Started
@@ -59,14 +59,14 @@ This file records the active slice, exact next permitted action, risks, and sess
 ## Candidate Decisions Still Not Final
 
 - GitHub profile link uses `https://github.com/AymanShams`.
-- LinkedIn profile URL is omitted because it has not been verified.
+- LinkedIn profile URL is published from the exact user-supplied URL. LinkedIn returned authwall status `999` to unauthenticated HTTP probing.
 - Custom domain is deferred until after v1 is live.
 - Public email address is deferred unless Ayman approves one.
 
 ## Risks And Blockers
 
 - Browser screenshot capture timed out, but DOM, route, console, mobile, security, link, Pages API, and public HTTP checks passed.
-- LinkedIn URL remains omitted until the exact public profile URL is verified.
+- LinkedIn does not return a normal unauthenticated profile response to `Invoke-WebRequest`; it returns LinkedIn authwall status `999`.
 
 ## New Session Decision
 

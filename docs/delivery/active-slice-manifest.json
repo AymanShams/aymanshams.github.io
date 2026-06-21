@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.0",
+  "project_name": "Ayman Shams Personal Site",
+  "slice_id": "post-launch-contact-links-2026-06-21",
+  "status": "approved",
+  "approved_by": "Ayman Shams",
+  "approved_on": "2026-06-21",
+  "allowed_actions": [
+    "Verify supplied public external URLs.",
+    "Add approved and checked LinkedIn and Google Calendar booking links to the existing static site.",
+    "Update documentation that tracks verified external links and current delivery state.",
+    "Run static, link, sensitive-content, and workflow validation checks.",
+    "Commit and push the bounded link update."
+  ],
+  "allowed_files": [
+    "index.html",
+    "assets/css/styles.css",
+    "docs/delivery/active-slice-manifest.json",
+    "docs/delivery/current-state.md",
+    "docs/frontend/routing.md",
+    "docs/product/requirements.md",
+    "docs/testing/strategy.md",
+    "docs/project-documentation/decision-register.md",
+    "docs/project-documentation/controlled-docs/app-flow.md",
+    "docs/project-documentation/controlled-docs/frontend-guidelines.md",
+    "docs/project-documentation/controlled-docs/implementation-plan.md",
+    "docs/project-documentation/controlled-docs/prd-ayman-shams-personal-site.md",
+    "docs/project-documentation/controlled-docs/security-guidelines.md",
+    "docs/project-documentation/project-brief.md",
+    "docs/project-documentation/project-documentation-manifest.json",
+    "docs/project-documentation/sources/source-inventory.md",
+    "docs/project-documentation/tdd-ayman-shams-personal-site.md"
+  ],
+  "forbidden_actions": [
+    "Add analytics, cookies, tracking, forms, JavaScript, a backend, a database, or a build system.",
+    "Change the umbrella identity away from Ayman Shams.",
+    "Promote HealPath or SiriusShield as the umbrella brand.",
+    "Publish private contact details, PHI, client records, payer details, financial details, credentials, or internal operating procedures.",
+    "Add unverified external links or placeholder links."
+  ],
+  "source_authority": [
+    "User message on 2026-06-21 supplied LinkedIn URL: https://www.linkedin.com/in/shamsayman",
+    "User message on 2026-06-21 supplied Google Calendar booking URL: https://calendar.app.google/tmQ1kP3kKUGVTpMe7",
+    "Google Calendar booking page returned HTTP 200 with title Ayman Shams - Booking Page.",
+    "LinkedIn profile URL returned LinkedIn authwall status 999 to unauthenticated HTTP probing, so the exact user-supplied URL is treated as the publishing authority.",
+    "Existing approved project documentation and AGENTS.md rules remain controlling."
+  ],
+  "validation_commands": [
+    "python C:\\Users\\ayman\\.codex\\skills\\new-project-documentation-system\\scripts\\validate_workflow_manifest.py docs\\project-documentation\\project-documentation-manifest.json",
+    "python C:\\Users\\ayman\\.codex\\skills\\new-project-documentation-system\\scripts\\validate_filled_artifacts.py README.md CONTRIBUTING.md AGENTS.md CLAUDE.md docs scripts\\agent\\session_continuity.py",
+    "python scripts\\agent\\session_continuity.py validate",
+    "Static HTML link and sensitive-content checks"
+  ],
+  "stop_conditions": [
+    "A supplied external URL cannot be checked or justified by user-supplied authority.",
+    "Validation fails.",
+    "The requested change requires analytics, forms, tracking, backend services, or personal data collection.",
+    "Remote git state diverges from the local branch."
+  ]
+}
